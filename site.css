@@ -1,0 +1,309 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-color: #1ac8ed;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(229, 13, 13);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.a:hover {
+    background-color: rgb(98, 13, 30);
+}
+
+.homecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 1000px;
+    margin-left: 217px;
+}
+
+.homecontent h1 {
+    color: blue;
+    margin: 0;
+}
+
+.homecontent h3 {
+    color: red;
+    margin: 15px;
+}
+.homecontent h4 {
+    color: red;
+    margin: 10px;
+}
+
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h1 {
+    color: red;
+    font-size: 25px;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.destination-item a {
+    opacity: 0;
+}
+
+.destination-item img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination-item h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.destination-item:hover a {
+    opacity: 1;
+}
+
+.whyus {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.whyus h1 {
+    color: red;
+}
+
+.whyus-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.whyus-item {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.oferta {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.oferta h1 {
+    color: red;
+}
+
+.oferta-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.oferta-item {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.oferta-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    color: red;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-item img {
+    width: 10%;
+}
+
+.dr {
+    background-color: cadetblue;
+    border-style: solid;
+    border-color: burlywood;
+    border-radius: 15px;
+    border-width: 4px;
+    padding: 15px;
+    width: 700px;
+    margin-left: 24%;
+    margin-top: 4%;
+}
+
+.bookitem {
+    margin-left: 200px;
+}
+
+.mascot img {
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
+    animation-name: cemodan;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cemodan {
+    0% {left: 40px; bottom: 20px;}
+    25% {left: 40px; bottom: 410px;}
+    50% {left: 1340px; bottom: 410px;}
+    75% {left: 1340px; bottom: 20px;}
+    100% {left: 40px; bottom: 20px;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .homecontent {
+        width: 370px;
+        margin-left: 0px;
+        border-width: 1px;
+        margin-top: 100px;
+    }
+    
+    .homecontent h1 {
+        font-size: 30px;
+    }
+
+    .homecontent h3 {
+        font-size: 20px;
+    }
+
+    .homecontent h4 {
+        font-size: 18px;
+    }
+
+    .header {
+        height: 49vh;
+        width: 340px;
+        position: static;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .ul a {
+        padding: 8px ;
+        font-size: 30px;
+    }
+
+    .destination-item a {
+        opacity: 1;
+    }
+
+    .contact-item img {
+        width: 70px;
+    }
+
+    .oferta-grid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .oferta-item {
+        width: 100%;
+    }
+
+    .oferta-item img{
+        width: 80%;
+    }
+
+    .destination-grid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .destination-item {
+        width: 100%;
+    }
+
+    .destination-item img{
+        width: 80%;
+    }
+
+    .dr {
+        width: 47vw;
+
+    }
+
+    @keyframes cemodan {
+        0% {left: 40px; bottom: 20px;}
+        50% {left: 300px; bottom: 20px;}
+        100% {left: 40px; bottom: 20px;}
+    }
+
+    .mascot img {
+        animation-duration: 4s;
+        width: 70px;
+        height: 70px;
+    }
+}
