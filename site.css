@@ -178,7 +178,7 @@ body {
     width: 10%;
 }
 
-.dr {
+.bookdiv {
     background-color: cadetblue;
     border-style: solid;
     border-color: burlywood;
@@ -290,7 +290,7 @@ body {
         width: 80%;
     }
 
-    .dr {
+    .bookdiv {
         width: 47vw;
 
     }
