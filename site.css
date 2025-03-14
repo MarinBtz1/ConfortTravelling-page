@@ -65,16 +65,15 @@ body {
     margin: 10px;
 }
 
+.name {
+    text-align: center; 
+    margin-top: 20px;
+    font-size: 40px;
+}
+
 .destinations {
-    padding: 50px 20px;
     text-align: center;
 }
-
-.destinations h1 {
-    color: red;
-    font-size: 25px;
-}
-
 .destination-grid {
     display: flex;
     justify-content: space-around;
@@ -106,12 +105,7 @@ body {
 }
 
 .whyus {
-    padding: 50px 20px;
     text-align: center;
-}
-
-.whyus h1 {
-    color: red;
 }
 
 .whyus-grid {
@@ -126,12 +120,8 @@ body {
 }
 
 .oferta {
-    padding: 50px 20px;
-    text-align: center;
-}
 
-.oferta h1 {
-    color: red;
+    text-align: center;
 }
 
 .oferta-grid {
@@ -149,15 +139,6 @@ body {
     width: 80%;
     height: auto;
     border-radius: 30px;
-}
-
-.contact {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.contact h1 {
-    color: red;
 }
 
 .contact-grid {
