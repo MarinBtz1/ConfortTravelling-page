@@ -9,6 +9,11 @@
     position: sticky;
     top: 0;
 }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 
 body {
     background-color: #1ac8ed;
@@ -32,10 +37,12 @@ body {
     border-radius: 5px;
 }
 
-.a:hover {
-    background-color: rgb(98, 13, 30);
-}
-
+.active {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
 .homecontent {
     display: flex;
     flex-direction: column;
