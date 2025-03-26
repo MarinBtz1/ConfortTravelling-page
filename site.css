@@ -289,18 +289,6 @@ body {
     }
 }
 
-.staff-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
-}
-
-.category {
-    border: 2px solid #000;
-    padding: 15px;
-    width: 200px;
-}
 
 .beneficii-container {
     display: flex;
