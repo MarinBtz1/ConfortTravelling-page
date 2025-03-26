@@ -36,12 +36,6 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
-
-.active {
-    color: green;
-    font-weight: bold;
-    text-decoration: none;
-  }
   
 .homecontent {
     display: flex;
