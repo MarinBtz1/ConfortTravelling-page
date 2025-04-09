@@ -7,15 +7,26 @@
 </head>
 <body>
     <div class="header">
-        <ul class="ul">
-            <li><a class="a" href="index.html">Home</a></li>
-            <li><a class="a" href="destinatii.html">Destinatii</a></li>
-            <li><a class="a" href="dece.html">De ce noi?</a></li>
-            <li><a class="a" href="oferte.html">Oferte speciale</a></li>
-            <li><a class="a" href="contact.html">Contact</a></li>
-            <li><a class="a" href="beneficii.html">Beneficii</a></li>
-        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div class="menu-overlay" id="menu">
+            <ul class="ul">
+                <li><a class="a" href="index.html">Home</a></li>
+                <li><a class="a" href="destinatii.html">Destinații</a></li>
+                <li><a class="a" href="dece.html">De ce noi?</a></li>
+                <li><a class="a" href="oferte.html">Oferte speciale</a></li>
+                <li><a class="a" href="contact.html">Contact</a></li>
+                <li><a class="a" href="beneficii.html">Beneficii</a></li>
+            </ul>
+        </div>
     </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        }
+    </script>
 
     <section class="oferta">
         <h1 class="name">Oferte ferbinti</h1>
