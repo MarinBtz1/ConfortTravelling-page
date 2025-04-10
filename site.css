@@ -176,7 +176,9 @@ body {
 }
 
 .bookitem {
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .mascot img {
