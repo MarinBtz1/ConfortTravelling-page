@@ -241,6 +241,10 @@ body {
     100% {left: 40px; bottom: 20px;}
 }
 
+.hamburger {
+    opacity: 0;
+}
+
 @media only screen and (max-width: 810px) {
     .header{
         width: 0;
@@ -373,5 +377,6 @@ body {
         left: 20px;
         z-index: 1000;
         color: black;
+        opacity: 1;
     }
 }
